@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="SMuP">
-  <meta name="keywords" content="SMuP">
+        content="SpectraM">
+  <meta name="keywords" content="SpectraM">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SMuP dataset</title>
+  <title>SpectraM dataset</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -58,41 +58,52 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">SMuP datasetaaa
-          </h1>
-                    <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SpectraM14 Benchmark Dataset</h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://satoshi-ikehata.github.io/">Ikehata Satoshi</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://researchmap.jp/asanoy">Yuta Asano</a><sup>2</sup>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup> National Institute of Informatics, </span>
+            <span class="author-block"><sup>2</sup>Tokyo Institute of Technology</span>
+          </div>
+
+          <div class="column has-text-centered">
             <div class="publication-links">
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://www.dropbox.com/scl/fi/gl1w965fh4v3bkqpa0pc9/SMuP.zip?rlkey=qfxkt2ycquf49t0a48zmttrwx&dl=0"
+                <a href="https://www.dropbox.com/s/su3fp2i7ymu8j1y/SpectraM14.zip?dl=0"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
-                  <span>Data</span>
+                  <span>SpectraM14</span>
                   </a>
             </div>
+            Kindly download 'SpectraM14' using the provided link above.
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <!-- Interpolating. -->
-        <h3 class="title is-4">14 objects</h3>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">About 14 objects in SpectraM14</h3>
           <div class="column is-12 has-text-centered">
             <img src="./static/images/objects.png"
                  class="object-image"
                  alt="object image."/>
           </div>
+          This dataset includes 14 objects, each exhibiting a range of optical properties such as monochromatic or multicolored appearances, and diffuse or specular reflections.
         </div>
         <br/>
-        <!--/ Interpolating. -->
       </div>
     </div>
   </div>
@@ -106,11 +117,28 @@
         <h2 class="title is-3">Main dataset</h2>
         <div class="content has-text-justified">
           <p>
-            This dataset includes 14 objects, each exhibiting a range of optical properties such as monochromatic or multicolored appearances, and diffuse or specular reflections...
+            This dataset consists of images captured under three different lighting conditions.
+            <ul>
+              <li>Six colors of light were each independently illuminated.</li>
+              <li>Three colors of light were simultaneously illuminated.</li>
+              <li>Five NIR lights were each independently illuminated.</li>
+            </ul>
           </p>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ikehata2024physics,
+  author    = {Ikehata, Satoshi and Asano, Yuta},
+  title     = {Physics-Free Spectrally Multiplexed Photometric Stereo under Unknown Spectral Composition},
+  journal   = {ECCV},
+  year      = {2024},
+}</code></pre>
   </div>
 </section>
 
